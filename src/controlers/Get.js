@@ -22,4 +22,5 @@ async function Get(url,token){
         // data = await data.json()
         return data
 }
-module.exports = Get;
+// module.exports = Get;
+export default Get;
