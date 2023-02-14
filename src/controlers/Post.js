@@ -21,4 +21,5 @@ async function Postdata(url, postdata,token) {
     return data
 
 }
-module.exports = Postdata;
+// module.exports = Postdata;
+export default Postdata
