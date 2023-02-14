@@ -1,0 +1,5 @@
+.add_btn_container{width: fit-content;border-style: solid;border-radius: 50%;border-color: black;
+    padding: 1% 1% 1% 1%;position: fixed;bottom: 6%;right: 4%;z-index: 1;
+}
+.add_btn_container button{padding: 0px;margin: 0px;}
+.add_btn_container button:focus{border-style: none;outline: none;box-shadow: none;}
