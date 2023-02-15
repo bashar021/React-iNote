@@ -7,6 +7,14 @@
 .avatar_btn:focus{box-shadow: none;}
 .avatar_img{border-style: solid;border-radius: 50%;padding: 1% 1% 1% 1%;}
 @media only screen and (min-width: 320px) and (max-width: 480px){
+    .navbar_box{
+        
+        padding: 3% 0 2% 0;
+
+    }
+    .navbar_container{
+        /* background-color: black; */
+    }
     .navbar-brand{display: none;}
     .search_input{border-style: none;background-color: transparent;outline: none;width: 100%;}
     .search_input:focus{border-style: none;background-color: transparent;outline: none;box-shadow: none;}

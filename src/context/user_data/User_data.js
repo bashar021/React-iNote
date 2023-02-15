@@ -19,7 +19,6 @@ const User_data = function(props){
     }
     let update_user_notes_arr  = function(arr){
         updateusernotes(arr)
-        console.log('arra updated')
     }
     return(
         <Userdatacontext.Provider value={{updateuser,usernotes,update_user_notes_arr,userdetails,userauth,}}>

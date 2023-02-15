@@ -1,6 +1,6 @@
 .form_box{width: 40%;margin: auto;margin-top: 10%;}
 .body_container{height: 100vh;background-size: cover;}
-.form_container{padding-top: 3%;width: 50%;margin: auto;padding-bottom: 5%;}
+.form_container{padding-top: 5%;width: 50%;margin: auto;padding-bottom: 5%;}
 .form_btns{width: 80%;margin: auto;margin-right: 10%;margin-left: 10%;}
 .form_btns button{background-color: rgba(0, 0, 0, 0.218);color: black;}
 .login_form_container{width: 80%;margin: auto;margin-top: 5%;}
@@ -12,9 +12,20 @@
 .form-text{color:red;}
 .hide{display: none;}
 .vissible{display: block;}
-.text-center{padding-top: 2%;display: none;}
+.login_spinner{display: none;position: absolute;top: 10%;left: 50%;transform: translate(-50%);z-index:10;}
+.form-label{color: white;}
+.form_input{color: white;}
+.form_input:focus{color: white;}
+.app_title{
+    /* text-align: center; */
+    width: 80%;
+    margin: auto;
+    margin-bottom: 4%;
+
+}
+input::-webkit-inner-spin-button {-webkit-appearance: none;margin: 0;}
 @media only screen and (min-width: 320px) and (max-width: 480px){
-    .form_container{ width: 100%;padding-top: 15%;}
+    .form_container{ width: 100%;padding-top: 22%;}
 }
 @media only screen and (min-width: 481px) and (max-width: 768px){
     .form_container{ width: 80%;padding-top: 10%;}

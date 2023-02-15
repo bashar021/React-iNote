@@ -6,9 +6,7 @@ import userdatacontext from '../context/user_data/User_data_context'
 import { Link} from 'react-router-dom';
 import Cookies from 'js-cookie'
 export default function Navbar(props) {
-    // let user_data = useContext(userdatacontext)
     let userdata = useContext(userdatacontext);
-    // const navigate = useNavigate();
     function logout(){
         Cookies.remove('jwt')
         window.location.reload();
